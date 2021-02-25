@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  /* background-color:#00b0ff; */
+}
+
+.box{
+  height:100vh;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_pass{
+  background-color: #222222;
+  height:50vh;
+  width:50%;
+  border-radius:10px;
+}
+.form_pass h1{
+  text-align:center;
+  color:#ffc928;
+  padding:10px;
+}
+.form_pass p{
+  padding:20px;
+  color:lightgrey;
+  margin-top: 70px;
+  font-size:24px;
+}
+.form_pass span{
+  background-color:#1C1C1C;
+  color:#ffc928;
+  margin-left: 20px;
+  
+}
